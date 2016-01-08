@@ -1,0 +1,81 @@
+{
+    "rules": [
+        {
+            "url": "aolradio\\.slacker\\.com",
+            "cat": "Arts & Entertainment || Music"
+        },
+        {
+            "url": "betaplayer\\.radio.com",
+            "cat": "Arts & Entertainment || Music"
+        },
+        {
+            "url": "http://nuts\\.co\\.uk/",
+            "cat": "Adult"
+        },
+        {
+            "url": "http://games\\.att\\.net",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "www\\.games\\.lycos\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "wwf-fb\\.zyngawithfriends\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "mousebreaker\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "freegametopia\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "freeridegames\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "gamesville\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "gsn\\.com",
+            "cat": "Hobbies & Interests || Games"
+        },
+        {
+            "url": "tvlistings\\.zap\\dit.com",
+            "cat": "Arts & Entertainment"
+        },
+        {
+            "url": "travel.*\\.com",
+            "cat": "Travel"
+        },
+        {
+            "url": "http://money\\.usnews\\.com/money",
+            "cat": "Finance"
+        },
+        {
+            "url": "usnews\\.com",
+            "cat": "News"
+        },
+        {
+            "url": "usnews\\.com/election",
+            "cat": "News || Politics"
+        },
+        {
+            "url": "nypost\\.com/p/news",
+            "cat": "News"
+        },
+        {
+            "url": "http://www.dailymail\\.co\\.uk/health/",
+            "cat": "Health & Fitness"
+        },
+        {
+            "url": "http://www\\.dailymail\\.co\\.uk",
+            "cat": "News"
+        }
+    ]
+}
+ 

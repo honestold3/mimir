@@ -1,0 +1,53 @@
+<configuration>
+    <property>
+        <name>verbose</name>
+        <value>false</value>
+        <description>Verbosity of output</description>
+    </property>
+    <property>
+        <name>base_dir</name>
+        <value>/user/sergey/contexo/log-processor</value>
+        <description>Base directory</description>
+    </property>
+    <property>
+        <!-- list of input files relative to base_dir, comma separated-->
+        <name>input_path</name>
+        <value>${base_dir}/input</value>
+        <description>List of input files to process</description>
+    </property>
+    <property>
+        <name>classified_output_path</name>
+        <value>${base_dir}/output-classified</value>
+        <description>Output directory for classified urls</description>
+    </property>
+    <property>
+        <name>non_classified_output_path</name>
+        <value>${base_dir}/output-unclassified</value>
+        <description>Output directory for non-classified urls</description>
+    </property>
+    <property>
+        <name>external_data_path</name>
+        <value>${base_dir}/external</value>
+        <description>Directory with fast classification rules file</description>
+    </property>
+    <property>
+        <name>external_data_location</name>
+        <value>hdfs</value>
+        <description>Type of file system where rules/categories file is located, variants: hdfs,file</description>
+    </property>
+    <property>
+        <name>rules_file</name>
+        <value>${external_data_path}/rule.json</value>
+        <description>Rules file</description>
+    </property>
+    <property>
+        <name>categories_file</name>
+        <value>${external_data_path}/categories.json</value>
+        <description>Categories file</description>
+    </property>
+    <property>
+        <name>hdfs_uri</name>
+        <value>hdfs://cluster-ny7</value>
+        <description>HDFS URI</description>
+    </property>
+</configuration>

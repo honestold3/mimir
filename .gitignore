@@ -1,0 +1,17 @@
+.DS_Store
+target/*
+project/target
+project/boot/
+project/project/target
+project/build/target/
+project/plugins/target/
+project/plugins/lib_managed/
+project/plugins/src_managed/
+*/target/*
+.idea/
+.idea_modules/
+# Eclipse project files
+.project
+.classpath
+.settings/
+.cache

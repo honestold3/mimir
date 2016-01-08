@@ -1,0 +1,64 @@
+{
+    "rules": [
+        {
+            "url": "stackoverflow.com",
+            "cat": "Technology & Computing"
+        },
+
+        {
+            "url": "aolradio.slacker.com",
+            "cat": "Arts & Entertainment || Music"
+        },
+
+        {
+            "url": "http://www.pandora.com/",
+            "cat": ""
+        },
+
+        {
+            "url": "https://pay.amazon.com",
+            "cat": "Shopping"
+        },
+
+        {
+            "url": "www2.arts.com",
+            "cat": "Arts & Entertainment"
+        },
+
+        {
+            "url": "144.160.155.43/shop/",
+            "cat": "Technology & Computing || Cell Phones"
+        },
+
+        {
+            "url": "cnn.com",
+            "cat": "News"
+        },
+
+        {
+            "url": "cnn.com/TECH",
+            "cat": "Technology & Computing"
+        },
+
+        {
+            "url": "cnn.com/HEALTH",
+            "cat": "Health & Fitness"
+        },
+
+        {
+            "url": "arts.com/2013{\\\3,7,8,12}/\\d^%/15/music",
+            "cat": "Arts & Entertainment || Music"
+        },
+
+        {
+            "url": "www\\d?.arts.com",
+            "cat": "Arts & Entertainment"
+        },
+
+        {
+            "url": "arts.com/*?/movies",
+            "cat": "Arts & Entertainment || Movies"
+        }
+
+    ]
+}

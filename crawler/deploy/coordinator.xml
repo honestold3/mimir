@@ -1,0 +1,45 @@
+<coordinator-app name="Content-fetcher-Hourly"
+                 frequency="${coord:hours(1)}"
+                 start="2013-01-19T12:00Z" end="2050-01-19T12:00Z" timezone="GMT"
+                 xmlns="uri:oozie:coordinator:0.1">
+    <controls>
+        <concurrency>1</concurrency>
+    </controls>
+    <datasets>
+        <dataset name="InputDS" frequency="${coord:hours(1)}"
+                 initial-instance="2013-01-19T13:00Z" timezone="GMT">
+            <uri-template>hdfs://cluster-ny7/user/sergey/contexo/log-processor/output/${YEAR}-${MONTH}-${DAY}/${HOUR}00</uri-template>
+            <done-flag></done-flag>
+        </dataset>
+        <dataset name="OutputDS" frequency="${coord:hours(1)}"
+                 initial-instance="2013-01-19T13:00Z" timezone="GMT">
+            <uri-template>/user/sergey/contexo/content-fetcher/output</uri-template>
+            <done-flag></done-flag>
+        </dataset>
+    </datasets>
+    <input-events>
+        <data-in name="current_input" dataset="InputDS">
+            <instance>${coord:current(-1)}</instance>
+        </data-in>
+    </input-events>
+    <output-events>
+        <data-out name="current_output" dataset="OutputDS">
+            <instance>${coord:current(-1)}</instance>
+        </data-out>
+    </output-events>
+    <action>
+        <workflow>
+            <app-path>${wf_application_path}</app-path>
+            <configuration>
+                <property>
+                    <name>current_input</name>
+                    <value>${coord:dataIn('current_input')}</value>
+                </property>
+                <property>
+                    <name>current_output</name>
+                    <value>${coord:dataOut('current_output')}</value>
+                </property>
+            </configuration>
+        </workflow>
+    </action>
+</coordinator-app>

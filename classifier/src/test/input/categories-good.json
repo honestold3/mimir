@@ -1,0 +1,333 @@
+{
+    "categories": [
+        {
+            "langid": "1",
+            "catid": "1",
+            "level": "1",
+            "parentid": "0",
+            "name": "Adult"
+        },
+        {
+            "langid": "1",
+            "catid": "2",
+            "level": "1",
+            "parentid": "0",
+            "name": "Arts & Entertainment"
+        },
+        {
+            "langid": "1",
+            "catid": "3",
+            "level": "2",
+            "parentid": "2",
+            "name": "Arts & Entertainment || Movies"
+        },
+        {
+            "langid": "1",
+            "catid": "4",
+            "level": "2",
+            "parentid": "2",
+            "name": "Arts & Entertainment || Music"
+        },
+        {
+            "langid": "1",
+            "catid": "5",
+            "level": "2",
+            "parentid": "2",
+            "name": "Arts & Entertainment || Television"
+        },
+        {
+            "langid": "1",
+            "catid": "6",
+            "level": "1",
+            "parentid": "0",
+            "name": "Automotive"
+        },
+        {
+            "langid": "1",
+            "catid": "7",
+            "level": "1",
+            "parentid": "0",
+            "name": "Business"
+        },
+        {
+            "langid": "1",
+            "catid": "8",
+            "level": "1",
+            "parentid": "0",
+            "name": "Careers"
+        },
+        {
+            "langid": "1",
+            "catid": "9",
+            "level": "1",
+            "parentid": "0",
+            "name": "Education"
+        },
+        {
+            "langid": "1",
+            "catid": "10",
+            "level": "1",
+            "parentid": "0",
+            "name": "Family & Parenting"
+        },
+        {
+            "langid": "1",
+            "catid": "11",
+            "level": "2",
+            "parentid": "10",
+            "name": "Family & Parenting || Babies & Toddlers"
+        },
+        {
+            "langid": "1",
+            "catid": "12",
+            "level": "2",
+            "parentid": "10",
+            "name": "Family & Parenting || Pregnancy"
+        },
+        {
+            "langid": "1",
+            "catid": "13",
+            "level": "1",
+            "parentid": "0",
+            "name": "Finance"
+        },
+        {
+            "langid": "1",
+            "catid": "14",
+            "level": "1",
+            "parentid": "0",
+            "name": "Food & Drink"
+        },
+        {
+            "langid": "1",
+            "catid": "15",
+            "level": "1",
+            "parentid": "0",
+            "name": "Health & Fitness"
+        },
+        {
+            "langid": "1",
+            "catid": "16",
+            "level": "2",
+            "parentid": "15",
+            "name": "Health & Fitness || Exercise"
+        },
+        {
+            "langid": "1",
+            "catid": "17",
+            "level": "2",
+            "parentid": "15",
+            "name": "Health & Fitness || Weight Loss"
+        },
+        {
+            "langid": "1",
+            "catid": "18",
+            "level": "1",
+            "parentid": "0",
+            "name": "Hobbies & Interests"
+        },
+        {
+            "langid": "1",
+            "catid": "19",
+            "level": "2",
+            "parentid": "18",
+            "name": "Hobbies & Interests || Games"
+        },
+        {
+            "langid": "1",
+            "catid": "20",
+            "level": "1",
+            "parentid": "0",
+            "name": "Home & Garden"
+        },
+        {
+            "langid": "1",
+            "catid": "21",
+            "level": "1",
+            "parentid": "0",
+            "name": "News"
+        },
+        {
+            "langid": "1",
+            "catid": "22",
+            "level": "2",
+            "parentid": "21",
+            "name": "News || Politics"
+        },
+        {
+            "langid": "1",
+            "catid": "23",
+            "level": "1",
+            "parentid": "0",
+            "name": "Pets"
+        },
+        {
+            "langid": "1",
+            "catid": "24",
+            "level": "1",
+            "parentid": "0",
+            "name": "Real Estate"
+        },
+        {
+            "langid": "1",
+            "catid": "25",
+            "level": "1",
+            "parentid": "0",
+            "name": "Religion and Spirituality"
+        },
+        {
+            "langid": "1",
+            "catid": "26",
+            "level": "1",
+            "parentid": "0",
+            "name": "Science"
+        },
+        {
+            "langid": "1",
+            "catid": "27",
+            "level": "1",
+            "parentid": "0",
+            "name": "Shopping"
+        },
+        {
+            "langid": "1",
+            "catid": "28",
+            "level": "1",
+            "parentid": "0",
+            "name": "Society"
+        },
+        {
+            "langid": "1",
+            "catid": "29",
+            "level": "2",
+            "parentid": "28",
+            "name": "Society || Dating"
+        },
+        {
+            "langid": "1",
+            "catid": "30",
+            "level": "1",
+            "parentid": "0",
+            "name": "Sports"
+        },
+        {
+            "langid": "1",
+            "catid": "31",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Auto Racing"
+        },
+        {
+            "langid": "1",
+            "catid": "32",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Baseball"
+        },
+        {
+            "langid": "1",
+            "catid": "33",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Basketball"
+        },
+        {
+            "langid": "1",
+            "catid": "34",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Football"
+        },
+        {
+            "langid": "1",
+            "catid": "35",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Golf"
+        },
+        {
+            "langid": "1",
+            "catid": "36",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Ice Hockey"
+        },
+        {
+            "langid": "1",
+            "catid": "37",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || Tennis"
+        },
+        {
+            "langid": "1",
+            "catid": "38",
+            "level": "2",
+            "parentid": "30",
+            "name": "Sports || World Soccer"
+        },
+        {
+            "langid": "1",
+            "catid": "39",
+            "level": "1",
+            "parentid": "0",
+            "name": "Style & Fashion"
+        },
+        {
+            "langid": "1",
+            "catid": "40",
+            "level": "1",
+            "parentid": "0",
+            "name": "Technology & Computing"
+        },
+        {
+            "langid": "1",
+            "catid": "41",
+            "level": "2",
+            "parentid": "40",
+            "name": "Technology & Computing || Cell Phones"
+        },
+        {
+            "langid": "1",
+            "catid": "42",
+            "level": "2",
+            "parentid": "40",
+            "name": "Technology & Computing || Computing"
+        },
+        {
+            "langid": "1",
+            "catid": "43",
+            "level": "2",
+            "parentid": "40",
+            "name": "Technology & Computing || Consumer Electronics"
+        },
+        {
+            "langid": "1",
+            "catid": "44",
+            "level": "1",
+            "parentid": "0",
+            "name": "Travel"
+        },
+        {
+            "langid": "1",
+            "catid": "45",
+            "level": "2",
+            "parentid": "44",
+            "name": "Travel || Europe"
+        },
+        {
+            "langid": "1",
+            "catid": "46",
+            "level": "2",
+            "parentid": "44",
+            "name": "Travel || United States"
+        },
+        {
+            "langid": "1",
+            "catid": "47",
+            "level": "2",
+            "parentid": "44",
+            "name": "Travel || Weather"
+        }
+    ]
+}

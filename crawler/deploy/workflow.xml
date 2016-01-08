@@ -1,0 +1,46 @@
+<workflow-app name="ContentFetcher" xmlns="uri:oozie:workflow:0.4">
+    <start to="content-fetcher-all"/>
+    <action name="content-fetcher-all">
+        <java>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <configuration>
+                <!-- These options don't seem to affect anything, only what's put in args for main class does
+                                <property>
+                                    <name>mapred.child.java.opts</name>
+                                    <value>-Xmx1g</value>
+                                </property>
+                                <property>
+                                    <name>mapreduce.map.java.opts</name>
+                                    <value>-Xmx1g</value>
+                                </property>
+
+                                <property>
+                                    <name>mapreduce.map.log.level</name>
+                                    <value>WARN</value>
+                                </property>
+                                <property>
+                                    <name>mapreduce.reduce.log.level</name>
+                                    <value>WARN</value>
+                                </property>
+                -->
+                <property>
+                    <name>dfs.support.append</name>
+                    <value>true</value>
+                </property>
+            </configuration>
+            <main-class>com.collective.contexo.content_fetcher.ContentFetcher</main-class>
+            <arg>-Dconfig.file=application.conf</arg>
+            <arg>-i</arg>
+            <arg>${current_input}</arg>
+            <arg>-o</arg>
+            <arg>${current_output}</arg>
+        </java>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
